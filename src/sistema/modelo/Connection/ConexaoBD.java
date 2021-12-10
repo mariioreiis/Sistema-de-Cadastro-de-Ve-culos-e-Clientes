@@ -18,7 +18,7 @@ public class ConexaoBD {
     public Statement stm;
     public ResultSet rs;
     private final String DRIVER = "com.mysql.jdbc.Driver";
-    private final String URL = "jdbc:mysql://localhost:3306/bv_veiculos";
+    private final String URL = "jdbc:mysql://localhost:3306/sistema_veiculos";
     private final String USER = "root";
     private final String PASS = "";
     public Connection con;
